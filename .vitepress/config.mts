@@ -8,6 +8,9 @@ export default defineConfig({
     head: [['link', { rel: 'icon', href: '/favicon.png' }]],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        search: {
+            provider: 'local',
+        },
         nav: [
             { text: 'Home', link: '/' },
             { text: 'MCP', link: '/docs/mcp/mcp1' },
