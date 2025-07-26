@@ -1,0 +1,8 @@
+﻿/* https://vitepress.dev/ko/guide/extending-default-theme#using-different-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --vp-font-family-base: 'Noto Sans KR', sans-serif; /* 일반 텍스트 폰트 */
+    --vp-font-family-mono: 'Source Code Pro', monospace; /* 코드 폰트 */
+}
