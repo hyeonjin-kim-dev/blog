@@ -5,7 +5,7 @@ export default defineConfig({
     base: '/blog/',
     title: 'DevLog',
     description: "Hi, I'm Hyeonjin Kim.",
-    head: [['link', { rel: 'icon', href: '/blog/favicon.png' }]],
+    head: [['link', { rel: 'icon', href: '/favicon.png' }]],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         search: {
