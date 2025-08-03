@@ -1,10 +1,10 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue';
 import type { Theme } from 'vitepress';
+import Layout from './Layout.vue';
 import DefaultTheme from 'vitepress/theme-without-fonts';
 import './my-fonts.css';
 import './style.css';
-import Layout from './Layout.vue';
 
 export default {
     extends: DefaultTheme,
