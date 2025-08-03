@@ -1,5 +1,8 @@
 import { defineConfig } from 'vitepress';
 
+// Import lightbox plugin
+import lightbox from 'vitepress-plugin-lightbox';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     base: '/blog/',
@@ -43,5 +46,11 @@ export default defineConfig({
         socialLinks: [
             { icon: 'github', link: 'https://github.com/hyeonjin-kim-dev' },
         ],
+    },
+    markdown: {
+        config: (md) => {
+            // Use lightbox plugin
+            md.use(lightbox, {});
+        },
     },
 });

@@ -87,6 +87,8 @@ MCP 는 크게 세 가지 핵심 구성 요소로 이루어져 있다.
 
 이 세 가지 구성요소는 어떤 식으로 상호작용 하는지 MCP 의 흐름을 살펴보자.
 
+![MCP Workflow](../images/mcp2.jpg)
+
 1. 먼저 사용자가 MCP Host 에게 요청을 보낸다.  
    예를 들면, 사용자가 Cluade Desktop 을 실행 시키고 "B.I 툴 사용법을 알려줘" 라고 입력한다.
 2. MCP Host 는 이 요청을 MCP Client 에게 전달한다.  
@@ -102,12 +104,11 @@ MCP 는 크게 세 가지 핵심 구성 요소로 이루어져 있다.
 
 ## MCP 서버 구현
 
-MCP Host 와 MCP Client 는 Claude Desktop 과 같은 AI Assistant 를 다운로드 받아 사용할 수 있다는 것을 알 수 있다.   
+MCP Host 와 MCP Client 는 Claude Desktop 과 같은 AI Assistant 를 다운로드 받아 사용할 수 있다는 것을 알 수 있다.  
 우리는 MCP Server 를 구현하고 AI Assistant 와 연결해야 한다.
 
-
-MCP를 처음으로 공개하고 적극적으로 추진한 Anthropic 는 MCP 서버 구현을 쉽게 할 수 있게 도와주는 SDK 를 제공하고 있다. 
+MCP를 처음으로 공개하고 적극적으로 추진한 Anthropic 는 MCP 서버 구현을 쉽게 할 수 있게 도와주는 SDK 를 제공하고 있다.
 
 [MCP SDKs](https://modelcontextprotocol.io/docs/sdk)
 
-여러 언어를 지원하는 데, 나는 이 중 Javascript(typescript) 를 선택했다. 
+여러 언어를 지원하는 데, 나는 이 중 Javascript(typescript) 를 선택했다.
