@@ -2,7 +2,7 @@
 prev: false
 next:
     text: 'MCP 서버 구현기 (2)'
-    link: '/docs/mcp/mcp2.md'
+    link: '/docs/mcp/mcp2'
 ---
 
 # MCP 서버 구현기 (1)
@@ -324,3 +324,8 @@ README.md 의 가이드 코드는 두 수를 더하는 도구였던걸 확인할
 9. '23 + 45' 라고 입력하면, MCP 서버의 도구를 사용하여 두 수를 더하는 결과를 반환한다.
 
 ![Claude Desktop](../images/mcp8.png)
+
+<hr/>
+
+이번 포스티에선 예제 MCP 서버를 구현하고, AI Agent 와 연동하는 방법을 알아보았다.  
+다음 포스팅에선 MCP 서버 구현 방법 및 필수 개념을 구체적으로 알아보겠다.

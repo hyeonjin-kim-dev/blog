@@ -3,6 +3,11 @@ import { defineConfig } from 'vitepress';
 // Import lightbox plugin
 import lightbox from 'vitepress-plugin-lightbox';
 
+import {
+    groupIconMdPlugin,
+    groupIconVitePlugin,
+} from 'vitepress-plugin-group-icons';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     base: '/blog/',
@@ -51,6 +56,10 @@ export default defineConfig({
         config: (md) => {
             // Use lightbox plugin
             md.use(lightbox, {});
+            md.use(groupIconMdPlugin);
         },
+    },
+    vite: {
+        plugins: [groupIconVitePlugin()],
     },
 });

@@ -5,6 +5,7 @@ import Layout from './Layout.vue';
 import DefaultTheme from 'vitepress/theme-without-fonts';
 import './my-fonts.css';
 import './style.css';
+import 'virtual:group-icons.css'
 
 export default {
     extends: DefaultTheme,
