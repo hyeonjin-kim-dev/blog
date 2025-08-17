@@ -33,6 +33,7 @@ export default defineConfig({
                     items: [
                         { text: 'MCP 서버 구현기 (1)', link: '/docs/mcp/mcp1' },
                         { text: 'MCP 서버 구현기 (2)', link: '/docs/mcp/mcp2' },
+                        { text: 'MCP 서버 구현기 (3)', link: '/docs/mcp/mcp3' },
                     ],
                 },
             ],
