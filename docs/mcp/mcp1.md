@@ -1,10 +1,4 @@
-﻿---
-prev: false
-next:
-    text: 'MCP 서버 구현기 (2)'
-    link: '/docs/mcp/mcp2'
----
-
+﻿
 # MCP 서버 구현기 (1)
 
 나는 B.I (Business Intelligence) 툴 개발자이다.  

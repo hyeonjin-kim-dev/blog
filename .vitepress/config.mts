@@ -21,19 +21,15 @@ export default defineConfig({
         },
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'MCP', link: '/docs/mcp/mcp1' },
-            { text: 'Playwright', link: '/docs/playwright/playwright1' },
-            { text: 'Node.js', link: '/docs/nodejs/nodejs1' },
+            { text: 'Dev Log', link: '/docs/mcp/mcp1' },
         ],
 
         sidebar: {
             '/docs/mcp/': [
                 {
-                    text: 'Model Context Protocol',
+                    text: 'Dev Log',
                     items: [
-                        { text: 'MCP 서버 구현기 (1)', link: '/docs/mcp/mcp1' },
-                        { text: 'MCP 서버 구현기 (2)', link: '/docs/mcp/mcp2' },
-                        { text: 'MCP 서버 구현기 (3)', link: '/docs/mcp/mcp3' },
+                        { text: 'MCP 서버 구현기', link: '/docs/mcp/mcp1' },
                     ],
                 },
             ],
