@@ -21,26 +21,16 @@ export default defineConfig({
         },
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Dev Log', link: '/docs/mcp/mcp1' },
+            { text: '회고', link: '/docs/retrospective/mcp1' },
         ],
 
         sidebar: {
-            '/docs/mcp/': [
+            '/docs/retrospective/': [
                 {
-                    text: 'Dev Log',
+                    text: '회고',
                     items: [
-                        { text: 'MCP 서버 구현기', link: '/docs/mcp/mcp1' },
-                    ],
-                },
-            ],
-            '/docs/playwight/': [
-                {
-                    text: 'Playwright',
-                    items: [
-                        {
-                            text: 'Playwright 도입기 (1)',
-                            link: '/docs/playwright/playwright1',
-                        },
+                        { text: 'MCP 서버 구현기', link: '/docs/retrospective/mcp1' },
+                        { text: 'Node.js 버전 업 회고', link: '/docs/retrospective/nodejs1' },
                     ],
                 },
             ],
