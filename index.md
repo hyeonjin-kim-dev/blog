@@ -9,7 +9,7 @@ hero:
     actions:
         - theme: brand
           text: 최신 글 보기
-          link: /docs/mcp/mcp1
+          link: /docs/retrospective/nodejs1
         - theme: alt
           text: GitHub
           link: https://github.com/hyeonjin-kim-dev
