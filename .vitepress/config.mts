@@ -31,7 +31,7 @@ export default defineConfig({
                     items: [
                         { text: 'MCP 서버 구현기', link: '/docs/retrospective/mcp1' },
                         { text: 'Node.js 버전 업 회고', link: '/docs/retrospective/nodejs1' },
-                        { text: '배포 자동화 여정', link: '/docs/retrospective/deploy1' },
+                        { text: 'AI 를 활용한 배포 자동화 여정', link: '/docs/retrospective/deploy1' },
                     ],
                 },
             ],
