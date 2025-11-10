@@ -139,3 +139,7 @@
 
     --vp-button-brand-bg: #654aff;
 }
+
+.name, .clip {
+    min-height: 70px;
+}

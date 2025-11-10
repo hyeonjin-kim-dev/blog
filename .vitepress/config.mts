@@ -21,29 +21,37 @@ export default defineConfig({
         },
         nav: [
             { text: 'Home', link: '/' },
-            { text: '회고', link: '/docs/retrospective/mcp1' },
+            { text: 'Dev Log', link: '/docs/devlog/mcp1' },
         ],
 
         sidebar: {
-            '/docs/retrospective/': [
+            '/docs/devlog/': [
                 {
-                    text: '회고',
+                    text: 'Dev Log',
                     items: [
                         {
-                            text: 'MCP 서버 구현 회고',
-                            link: '/docs/retrospective/mcp1',
+                            text: 'MCP 서버 구현',
+                            link: '/docs/devlog/mcp1',
                         },
                         {
-                            text: 'Node.js 버전 업 회고',
-                            link: '/docs/retrospective/nodejs1',
+                            text: 'Node.js 버전 업',
+                            link: '/docs/devlog/nodejs1',
                         },
                         {
-                            text: 'AI 를 활용한 배포 자동화 회고',
-                            link: '/docs/retrospective/deploy1',
+                            text: 'AI 를 활용한 배포 자동화',
+                            link: '/docs/devlog/deploy1',
                         },
                         {
-                            text: '거대 SPA 초기 렌더링 최적화 회고',
-                            link: '/docs/retrospective/spa1',
+                            text: 'SPA 초기 렌더링 최적화',
+                            link: '/docs/devlog/spa1',
+                        },
+                        {
+                            text: 'Vue inject undefined 이슈',
+                            link: '/docs/devlog/inject1',
+                        },
+                        {
+                            text: '바이브 코딩으로 자산 관리 자동화',
+                            link: '/docs/devlog/vibe1',
                         },
                     ],
                 },
