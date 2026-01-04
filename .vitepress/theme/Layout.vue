@@ -1,11 +1,16 @@
 ﻿<script setup>
 import DefaultTheme from 'vitepress/theme';
-import { onMounted } from 'vue';
-import { useRouter } from 'vitepress';
+import { onMounted, computed } from 'vue';
+import { useRouter, useRoute } from 'vitepress';
 import mediumZoom from 'medium-zoom';
+import CursorTrail from './components/CursorTrail.vue';
 
 const { Layout } = DefaultTheme;
 const router = useRouter();
+const route = useRoute();
+
+// Check if current page is home
+const isHome = computed(() => route.path === '/' || route.path === '/blog/');
 
 // Setup medium zoom with the desired options
 const setupMediumZoom = () => {
@@ -15,7 +20,9 @@ const setupMediumZoom = () => {
 };
 
 // Apply medium zoom on load
-onMounted(setupMediumZoom);
+onMounted(() => {
+    setupMediumZoom();
+});
 
 // Subscribe to route changes to re-apply medium zoom effect
 router.onAfterRouteChanged = setupMediumZoom;
@@ -23,6 +30,7 @@ router.onAfterRouteChanged = setupMediumZoom;
 
 <template>
     <Layout />
+    <CursorTrail v-if="isHome" />
 </template>
 
 <style>
